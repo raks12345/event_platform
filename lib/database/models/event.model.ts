@@ -9,11 +9,11 @@ export interface IEvent extends Document{
     imageUrl: string;
     startDateTime?: Date;
     endDateTime?: Date;
-    price?: string;
-    isFree?: boolean;
+    price: string;
+    isFree: boolean;
     url?: string;
     category?: {_id: string, name: string}  // Assuming Category has its own interface or type
-    organizer?: {_id: string,firstname: string, lastname:string}// Assuming User has its own interface or type
+    organizer?: {_id: string,firstName: string, lastName:string}// Assuming User has its own interface or type
 }
 
 const EventSchema = new Schema({
