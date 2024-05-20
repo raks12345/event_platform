@@ -1,5 +1,5 @@
 import Collection from '@/components/shared/Collection';
-import CheckoutButton from '@/components/shared/checkoutButton';
+import CheckoutButton from '@/components/shared/CheckoutButton';
 import { getEventById, getRelatedEventsByCategory } from '@/lib/actions/event.action'
 import { formatDateTime } from '@/lib/utils';
 import { SearchParamProps } from '@/types'
